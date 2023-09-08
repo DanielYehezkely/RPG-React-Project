@@ -151,10 +151,11 @@
 
 .modal-stats-items-container {
   width: 78rem;
-  height: 30rem;
-  background-color: #523131;
-  border: 2px solid red;
+  height: fit-content;
+  background: var(--white-001);
   display: grid;
+  column-gap: 2.1rem;
+  row-gap: 2.1rem;
   grid-template-columns: repeat(5, 1fr) ;
   grid-template-rows: repeat(2, 1fr);
 }
@@ -163,25 +164,25 @@
   width: 14rem;
   height: 14rem;
   border: 0.3rem solid var(--black-001);
-  background: var(--white-001);
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
 }
 
-.stats-item-data {
-  width: 100%;
-  height: 8.7rem;
-  color: #000;
-  text-align: center;
+.stats-item-value {
+  display: flex;
+  justify-content: center;
+  height: 8.7rem;  
+  color: #000;  
+  background: var(--white-001);
+  align-items: center;
   font-family: var(--primary-font-family);
   font-size: 7.2rem;
   font-weight: var(--primary-font-weight);
-  line-height: normal;
 }
 
-.stats-item-type {
+.stats-item-category {  
+  height: 5rem;
   width: 100%;
-  height: 5.3rem;
   background: var(--black-001);
   color: var(--primary-font-color);
   text-align: center;
@@ -192,5 +193,80 @@
   font-size: var(--login-title-font-size);
   font-weight: var(--primary-font-weight);
   line-height: 1.9rem;
-  padding: 0 1rem 0;
+  padding: 0.9rem 3.3rem;
+  align-self: flex-end;
+}
+
+.stats-item-box:first-child {
+  grid-row: span 2; 
+  width: 14rem;
+  /* height: 31rem; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: space-between;
+  align-items: center;
+  color: #000; 
+  /* height: 100%; */
+  font-family: var(--primary-font-family);  
+  font-weight: var(--primary-font-weight);
+}
+
+.stats-item-first-box-inner {  
+  display: flex;
+  height: 90%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stats-item-box h4 {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  /* align-items: center; */
+  font-size: 2rem;
+  line-height: 1.9rem;
+}
+
+.favorite-squaddie-values-container {
+  display: flex;
+  gap: .25em;
+  justify-content: center; 
+  align-items: center;
+  height: 2.3rem;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+.favorite-squaddie-icon-precision {
+  /* display: flex; */
+  color: #000;
+  width: 1.4rem;
+  height: 1.4rem; 
+  background-image: url('../../public/assets/images/precision.png'); 
+}
+
+.favorite-squaddie-icon-kills {  
+  display: flex;
+  color: #000;
+  width: 1.4rem;
+  height: 1.2rem; 
+  background-image: url('../../public/assets/images/kills.png');    
+}
+
+.modal-stats-character-image {
+  display: flex;
+    width: 10.3rem;
+    height: 17.5rem;   
+    /* flex-shrink: 0; */
+}
+
+.image-bald-survivor {
+  background-image: url('../../public/assets/images/character-bald-survivor.png');
+  width: 100%;
+  height: 100%;    
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
