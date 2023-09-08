@@ -3,7 +3,8 @@ import {
   FormInput,
   ModalAvatar,
   RegisterModalNavbar,
-  PasswordInput
+  PasswordInput,
+  Stats
 } from '../components';
 
 const RegisterModal = () => {

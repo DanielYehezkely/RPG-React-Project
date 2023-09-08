@@ -97,6 +97,7 @@
   width: 100%;
   height: 50rem;
   padding: 9.3rem 0rem 4.2rem 5.16rem;
+  
 }
 /* ================================== Form ============================================== */
 .modal-form-container {
@@ -299,6 +300,10 @@ form li {
   height: 2.2rem;
   width: 3.8rem;
 }
+
+/* =========== Player Stats =======================- */
+
+
 
 
 
