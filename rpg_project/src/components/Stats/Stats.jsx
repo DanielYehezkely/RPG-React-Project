@@ -2,7 +2,12 @@ import React from 'react'
 
 const Stats = () => {
   return (
-    <div>stats</div>
+    <div className='stats-box'>
+      <div className="stats-data">
+        3:48
+      </div>
+      <div className="stats-type">longest ride</div>
+    </div>
   )
 }
 

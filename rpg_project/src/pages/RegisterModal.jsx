@@ -41,7 +41,7 @@ const RegisterModal = () => {
             </form>
           </div>
           <AvatarsContainer /> */}
-          
+          <Stats/>
         </div>
       </div>
     </div>
