@@ -1,9 +1,9 @@
-import RegisterModal from './pages/RegisterModal';
-
+// import RegisterModal from './pages/RegisterModal';
+import { StatsContainer } from './components/index.js'
 function App() {
   return (
     <>
-      <RegisterModal />
+      <StatsContainer />
     </>
   );
 }

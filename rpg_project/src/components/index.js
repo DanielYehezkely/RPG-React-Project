@@ -5,6 +5,6 @@ import ModalAvatar from './RegisterModal/ModalAvatar';
 import RegisterModalNavbar from './RegisterModal/RegisterModalNavbar';
 import AvatarsContainer from './RegisterModal/AvatarsContainer';
 
-import Stats from './Stats/stats';
+import StatsContainer from './Stats/StatsContainer';
 
-export { ModalAvatar, FormInput, PasswordInput, RegisterModalNavbar, AvatarsContainer, Stats};
+export { ModalAvatar, FormInput, PasswordInput, RegisterModalNavbar, AvatarsContainer, StatsContainer};

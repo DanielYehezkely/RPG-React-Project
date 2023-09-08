@@ -32,7 +32,9 @@ const AvatarsContainer = () => {
         <div className="green-btn "><span>Create Account</span></div> {/**red-button class  + text change 'Logged In' */}
       </div>
       </div>
+      <div className="modal-avatars-container"></div>
     </div>
+
   );
 };
 export default AvatarsContainer;

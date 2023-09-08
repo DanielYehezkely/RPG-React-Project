@@ -1,12 +1,11 @@
-import React from 'react'
 
 const Stats = () => {
   return (
-    <div className='stats-box'>
-      <div className="stats-data">
+    <div className='stats-item-box'>
+      <div className="stats-item-data">
         3:48
       </div>
-      <div className="stats-type">longest ride</div>
+      <div className="stats-item-type">longest ride</div>
     </div>
   )
 }
