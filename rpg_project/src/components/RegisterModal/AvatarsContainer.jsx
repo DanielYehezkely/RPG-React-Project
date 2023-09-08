@@ -6,8 +6,7 @@ const AvatarsContainer = () => {
     'head-3',
     'head-4',
     'head-5',
-    'head-6',
-    'molotov',
+    'head-6',    'molotov',
     'tnt',
     'bomb'
   ];
@@ -20,7 +19,7 @@ const AvatarsContainer = () => {
           <div key={avatar} className={`avatar-box ${avatar}`}>
             <div id={avatar} />
           </div>
-        ))}
+        ))}o
         {new Array(3).fill(null).map((_, index) => (
           <div key={index} className="avatar-box coming-soon">
             <p>COMING SOON</p>

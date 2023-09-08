@@ -8,6 +8,7 @@
   justify-content: center;
 }
 /* login-modal -------------------------------- */
+.stats-modal,
 .login-modal {
   height: 77.7rem;
   width: 88.8rem;

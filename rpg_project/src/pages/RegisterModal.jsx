@@ -4,7 +4,6 @@ import {
   ModalAvatar,
   RegisterModalNavbar,
   PasswordInput,
-  Stats
 } from '../components';
 
 const RegisterModal = () => {
@@ -26,7 +25,7 @@ const RegisterModal = () => {
           <ModalAvatar />
         </div>
         <div className="modal-showcase-container">
-          {/* <div className="modal-form-container">
+          <div className="modal-form-container">
             <form action="">
               <FormInput
                 inputText='NICKNAME'
@@ -40,8 +39,7 @@ const RegisterModal = () => {
               <PasswordInput />
             </form>
           </div>
-          <AvatarsContainer /> */}
-          <Stats/>
+          <AvatarsContainer /> 
         </div>
       </div>
     </div>

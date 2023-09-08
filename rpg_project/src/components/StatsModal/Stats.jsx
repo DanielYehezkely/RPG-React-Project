@@ -1,5 +1,4 @@
 const Stats = ({id, name, precision, kills, category, value}) => {
-  console.log("id:", id); // Log the value of id for debugging
 
   return (    
     <>
@@ -29,12 +28,3 @@ const Stats = ({id, name, precision, kills, category, value}) => {
 }
 
 export default Stats
-/*
-
-   {props.id === 'state-item-0'} ?
-      <div></div>
-      { id: 'state-item-0' , name: 'MR. SKINNER', precision: 265, kills: 98 , category: 'FAVORITE SQUADDIE'},
-      <div className="stats-item-data favorite-squaddie">{props.name}{props.name}</div> :
-      <div className="stats-item-type">{props.value} {props.category}</div>
-
-**/
