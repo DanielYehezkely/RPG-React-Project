@@ -1,13 +1,7 @@
-import "./styles/index.css";
-import Index from "./pages/index";
-
-
+import Index from "./pages";
+import React from "react";
 function App() {
-  return (
-    <>
-      <Index />
-    </>
-  );
+  return <Index />;
 }
 
 export default App;
