@@ -12,7 +12,7 @@ const RegisterModal = () => {
       <div className="login-modal">
         <div className="modal-back-btn">
           <a href="lobby">
-            <img src="/assets/images/back_button.png" alt="back_button" />
+            <img src="/assets/images_modal/back_button.png" alt="back_button" />
           </a>
         </div>
         
@@ -20,7 +20,7 @@ const RegisterModal = () => {
 
         <div className="modal-header">
           <div className="modal-gunEdge-img">
-            <img src="/assets/images/Modal-Gun-Edge.png" alt="" />
+            <img src="/assets/images_modal/Modal-Gun-Edge.png" alt="" />
           </div>
           <ModalAvatar />
         </div>

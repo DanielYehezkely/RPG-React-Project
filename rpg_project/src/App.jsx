@@ -1,4 +1,4 @@
-import RegisterModal from "./pages/RegisterModal";
+// import RegisterModal from "./pages/RegisterModal";
 import StatsModal from "./pages/StatsModal";
 
 function App() {

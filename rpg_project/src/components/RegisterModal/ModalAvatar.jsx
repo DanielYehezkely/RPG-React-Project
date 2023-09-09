@@ -4,12 +4,12 @@ const ModalAvatar = ({ avatarIcon, avatarText }) => {
       <div className="modal-user-avatar">
         <img
           className="modal-avatar-icon"
-          src="/assets/images/svg/Layer_1.svg"
+          src="/assets/images_modal/svg/Layer_1.svg"
           alt=""
         />
         <img
           className="modal-guest-text-icon"
-          src="/assets/images/GUEST.png"
+          src="/assets/images_modal/GUEST.png"
           alt=""
         />
       </div>

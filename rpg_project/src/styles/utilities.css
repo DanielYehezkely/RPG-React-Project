@@ -244,7 +244,7 @@
   color: #000;
   width: 1.4rem;
   height: 1.4rem; 
-  background-image: url('../../public/assets/images/precision.png'); 
+  background-image: url('../../public/assets/images_modal/precision.png'); 
   background-repeat: no-repeat;
 
 }
@@ -254,7 +254,7 @@
   color: #000;
   width: 1.4rem;
   height: 1.2rem; 
-  background-image: url('../../public/assets/images/kills.png');    
+  background-image: url('../../public/assets/images_modal/kills.png');    
   background-repeat: no-repeat;
 
 }
@@ -267,7 +267,7 @@
 }
 
 .image-bald-survivor {
-  background-image: url('../../public/assets/images/character-bald-survivor.png');
+  background-image: url('../../public/assets/images_modal/character_skinner.png');
   width: 100%;
   height: 100%;    
   background-repeat: no-repeat;
