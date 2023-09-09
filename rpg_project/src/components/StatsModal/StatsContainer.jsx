@@ -1,4 +1,4 @@
-import { statsItems } from "../../utils/stats-items.js"
+import { statsItems } from "../../stats-items"
 import Stats from "./Stats.jsx"
 const StatsContainer = () => {
     return (

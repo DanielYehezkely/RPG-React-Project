@@ -1,11 +1,11 @@
 import RegisterModal from "./pages/RegisterModal";
-// import StatsModal from "./pages/StatsModal";
+import StatsModal from "./pages/StatsModal";
 
 function App() {
   return (
     <>
-    <RegisterModal />
-      {/* <StatsModal /> */}
+    {/* <RegisterModal /> */}
+      <StatsModal />
     </>
   );
 }
