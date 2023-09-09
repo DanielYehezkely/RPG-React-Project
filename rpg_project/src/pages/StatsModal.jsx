@@ -1,6 +1,7 @@
 import {
     RegisterModalNavbar,
-    StatsContainer
+    StatsContainer,
+    ModalAvatar
   } from '../components';
 
   const StatsModal = () => {
@@ -17,6 +18,7 @@ import {
             <div className="modal-gunEdge-img">
               <img src="/assets/images/Modal-Gun-Edge.png" alt="" />
               </div>
+              <ModalAvatar />
               </div>
               <div className="modal-showcase-container">
             <StatsContainer/>
