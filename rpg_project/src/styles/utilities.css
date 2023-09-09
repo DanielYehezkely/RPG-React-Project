@@ -245,6 +245,8 @@
   width: 1.4rem;
   height: 1.4rem; 
   background-image: url('../../public/assets/images/precision.png'); 
+  background-repeat: no-repeat;
+
 }
 
 .favorite-squaddie-icon-kills {  
@@ -253,6 +255,8 @@
   width: 1.4rem;
   height: 1.2rem; 
   background-image: url('../../public/assets/images/kills.png');    
+  background-repeat: no-repeat;
+
 }
 
 .modal-stats-character-image {
