@@ -39,39 +39,9 @@ const SquaddieCard = ({
       <li>{skill2}</li>
       <li>{skill3}</li>
     </ul>
-    <div className="squaddie-stats">
-      <Stats type={strength} upgradePrice={upgradeStrength}/>
-      <Stats type={strength} upgradePrice={upgradeStrength}/>
-      {/* <p className="squaddie-health stats tk-hwt-artz">
-        <span>
-          <img className="health" src="/assets/icons/health.svg" alt="heart" />
-          {health}
-        </span>
-      </p>
-      <button type="submit" className="btn green-btn upgrade-btn">
-        <span>
-          <img
-            className="btn-up-arrow upgrade-btn-content"
-            src="../../../public/assets/icons/up-arrow.svg"
-            alt="up-arrow"
-          />
-          <img
-            className="gold-medal upgrade-btn-content"
-            src="../../../public/assets/icons/gold-medal.svg"
-          />
-          <img
-            className="gold-medal-outline upgrade-btn-content"
-            src="../../../public/assets/icons/gold-medal-outline.svg"
-          />
-          <span className="upgrade-price upgrade-btn-content tk-hwt-artz">
-            {upgradeHealth}
-          </span>
-        </span>
-      </button>
-      <label className="switch">
-        <input type="checkbox" />
-        <span className="slider round" />
-      </label> */}
+    <div className="squaddie-stats-container">
+      <Stats type="strength" value={strength} upgradePrice={upgradeStrength}/>
+      <Stats type="health" value={health} upgradePrice={upgradeHealth}/>
     </div>
     <button className={ isChosen ? 
                         "remove-squaddie-btn red-btn" : 

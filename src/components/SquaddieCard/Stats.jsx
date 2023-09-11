@@ -1,14 +1,15 @@
 import { useState } from 'react';
 import './stats.css'
 
-const Stats = ({type, upgradePrice}) => {
+const Stats = ({type, value, upgradePrice}) => {
   return (
-      <p className={"stats tk-hwt-artz squaddie-" + type}>
+    <div className='squaddie-stats'>
+       <p className={`stats tk-hwt-artz squaddie-${type}`}>
         <span>
           <img className={type} src={`/assets/icons/${type}.svg`} alt={type} />
-          {type}
+          {value}
         </span>
-      
+      </p>
       <button type="submit" className="btn green-btn upgrade-btn">
         <span>
           <img
@@ -33,7 +34,9 @@ const Stats = ({type, upgradePrice}) => {
         <input type="checkbox" />
         <span className="slider round" />
       </label>
-     </p>
+     
+    </div>
+     
   );
 };
 export default Stats;

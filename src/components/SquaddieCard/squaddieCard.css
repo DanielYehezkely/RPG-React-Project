@@ -94,46 +94,8 @@
 	text-shadow: var(--text-outline);
  }
 
- 
- /* .squaddie-stats {
-	margin-top: 2.3rem;
-	display: grid;
-	grid-gap: 1rem;
-	grid-template: 3rem 3rem/ 10rem 10rem 10rem;
-	margin-left: 2.8rem;
- } */
-
- .stats {
-	background-color: var(--black-001);
-	margin: 0.4rem;
-	color: var(--white-001);
-	font-size: 1.8rem;
- 	font-weight: 700;
-	border-radius: 3rem;
-	width: 9.5rem;
-	height: 3.5rem;
-	padding: 0.5rem;
- }
-
- .strength {
-	position: relative;
-	top: 0.5rem;
- }
-
-.squaddie-health span {
-		position: relative;
-		left: -1.4rem;
-		top: 0.3rem;
- }
-
- .squaddie-strength span {
-		position: relative;
-		left: -1.8rem;
-		top: -0.2rem;
- }
-
 .add-squaddie-btn {
-	margin-top: 3rem;
+	margin-top: 1rem;
 	margin-right: 3.4rem;
 	margin-left: 3rem;
 	width: 28.5rem;
@@ -160,50 +122,17 @@
 }
 
 .remove-squaddie-btn {
-
-}
-
-.upgrade-btn {
-	border: 0.2rem solid var(--black-001);
-	box-shadow: none;
-	height: 3.2rem;
-	width: 10rem;
-	border-radius: 0.8rem;
-	margin-top: 0.5rem;
-}
-
-.upgrade-btn-content {
-	margin-top: 0.5rem;
-	margin-left: 0.2rem;
+	margin-top: 1rem;
+	margin-right: 3.4rem;
+	margin-left: 3rem;
+	width: 28.5rem;
+	height: 5rem;
+	color: var(--white-001);
+	font-size: 3.3rem;
+	font-weight: 700;
+	line-height: 3.9rem;
+	letter-spacing: 0.1rem;
 	text-shadow: var(--text-outline);
-	color: white;
-	font-size: 1.8rem;
-}
-
-.btn-up-arrow {
-	position: relative;
-	right: 2rem;
-	bottom: 0.3rem;
-}
-
-.gold-medal {
-	position: absolute;
-	right: 1.5rem;
-	bottom: 0.1rem;
-}
-
-.gold-medal-outline {
- 	position: absolute;
-	right: 1.5rem;
-	bottom: 0.1rem;
-	z-index: -1;
-}
-
-.upgrade-price {
-	position: absolute;
-	right: -0.6rem;
-	bottom: 0.2rem;
-	z-index: -1;
 }
 
 .squaddie-blue section {
@@ -234,73 +163,3 @@
 .squaddie-unavailable button {
 	display : none;
 }
-
-/* The switch */
-
-.switch {
-	position: relative;
-	display: inline-block;
-	width: 6rem;
-	height: 3.4rem;
-	margin-top: 1rem;
-}
-
-.switch input {
-	opacity: 0;
-	width: 0;
-	height: 0;
-}
-
-.slider {
-	position: absolute;
-	cursor: pointer;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-color: black;
-	color: #ffffff;
-}
-
-.slider:after {
-	content: 'max';
-	position: relative;
-	top: 0.6rem;
-	left: 1.6rem;
-	font-family: "hwt-artz",sans-serif;
-	color: #ffffff;
-	font-size: 1.2rem;
-	line-height: normal;
-}
-
-.slider:before {
-	content: 'X1';
-	padding: 0.3rem;
-	position: absolute;
-	left: 0.2rem;
-	background-color: #3dbe42;
-	font-size: 1.2rem;
-	color: #000;
-	font-family: "hwt-artz",sans-serif;
-	font-size: 1.2rem;
-	font-weight: 900;
-	line-height: normal;
-}
-
-/* input:checked + .slider {
-	background-color: #3dbe42;
-} */
-
-.slider.round {
-	border-radius: 5.5rem;
-	height: 2.5rem;
-	width: 7rem;
-}
-
-.slider.round:before {
-	border-radius: 5.5rem;
-	height: 2.1rem;
-	width: 3.5rem;
-	top: 0.2rem;
-}
-
