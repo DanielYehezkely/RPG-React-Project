@@ -56,4 +56,4 @@ const ManageSquaddies = () => {
     <CardsContainer data={data}/>
   );
 };
-export default ManageSquaddies;
+export d
