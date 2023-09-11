@@ -1,0 +1,13 @@
+.squaddie-container {
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	left: 9rem;
+	top: 20.6rem;
+	right: 0rem;
+	bottom: 12.4rem;
+	width: 183rem;
+	height: 77.8rem;
+	text-align: center;
+	overflow: hidden;
+}

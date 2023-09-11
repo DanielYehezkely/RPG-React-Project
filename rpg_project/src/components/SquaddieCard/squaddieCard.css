@@ -1,0 +1,306 @@
+.btn {
+	box-shadow: 0rem 0.5rem 0.1rem 0rem rgba(0, 0, 0, 0.60);
+    border: 0.4rem solid var(--black-001);
+	border-radius: 0.8rem;
+}
+
+.green-btn {
+    background: var(--green-button-outer);
+}
+
+.green-btn span {
+	display: inline-block;
+	position: relative;
+	z-index: 3;
+}
+
+.green-btn::after {
+	content:"";
+	display: inline-block;
+	position: relative;
+	background: var(--green-button-inner);
+	border-radius: 0.8rem;
+}
+
+.red-button {
+    background: var(--red-button-outer);
+}
+
+
+
+/* 
+.tk-hwt-artz { font-family: "hwt-artz",sans-serif; }
+.tk-lunatix { font-family: "lunatix",sans-serif; }
+.tk-fit-extra-wide { font-family: "fit-extra-wide",sans-serif; }
+.tk-fit-compressed { font-family: "fit-compressed",sans-serif; }
+.tk-fit-condensed { font-family: "fit-condensed",sans-serif; }
+.tk-fit-skyline { font-family: "fit-skyline",sans-serif; }
+.tk-fit-wide { font-family: "fit-wide",sans-serif; }
+.tk-fit-extra-extended { font-family: "fit-extra-extended",sans-serif; }
+.tk-fit-ultra-extended { font-family: "fit-ultra-extended",sans-serif; }
+.tk-fit { font-family: "fit",sans-serif; }
+.tk-fit-extended { font-family: "fit-extended",sans-serif; }
+.tk-fit-extra-condensed { font-family: "fit-extra-condensed",sans-serif; } */
+
+.squaddie header {
+	width: 10.7rem;
+	height: 2.8rem;
+	background-color: var(--black-001);
+	padding-top: 0.6rem;
+	margin-bottom: -0.4rem;
+	z-index: 4;
+}
+
+.squaddie h6 {
+	letter-spacing: 0.1rem;
+	text-align: center;
+	font-size: 1.8rem;
+	color: var(--white-001);
+	font-weight: 600;
+	letter-spacing: 0.1rem;
+	text-shadow: var(--text-shadow-2px);
+}
+
+.squaddie section {
+	position: relative;
+	margin-right: 3rem;
+	width: 35rem;
+	height: 75rem;
+	border: 0.4rem solid var(--black-001);
+	text-align: center;
+}
+
+.squaddie section h2 {
+	color: var(--white-001);
+	font-size: 4.8rem;
+	font-weight: 700;
+	margin-top: 4.8rem;
+	letter-spacing: 0.2rem;
+	line-height: 5.9rem;
+	margin-bottom: -0.5rem;
+	text-shadow: var(--text-shadow-4px);
+ }
+
+ .squaddie section .character {
+	margin-top: 2.3rem
+ }
+
+ .squaddie ul {
+	color: var(--white-001);
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 1.5rem; /* 100% */
+	letter-spacing: 0.45px;
+	text-shadow: var(--text-outline);
+ }
+
+ 
+ /* .squaddie-stats {
+	margin-top: 2.3rem;
+	display: grid;
+	grid-gap: 1rem;
+	grid-template: 3rem 3rem/ 10rem 10rem 10rem;
+	margin-left: 2.8rem;
+ } */
+
+ .stats {
+	background-color: var(--black-001);
+	margin: 0.4rem;
+	color: var(--white-001);
+	font-size: 1.8rem;
+ 	font-weight: 700;
+	border-radius: 3rem;
+	width: 9.5rem;
+	height: 3.5rem;
+	padding: 0.5rem;
+ }
+
+ .strength {
+	position: relative;
+	top: 0.5rem;
+ }
+
+.squaddie-health span {
+		position: relative;
+		left: -1.4rem;
+		top: 0.3rem;
+ }
+
+ .squaddie-strength span {
+		position: relative;
+		left: -1.8rem;
+		top: -0.2rem;
+ }
+
+.add-squaddie-btn {
+	margin-top: 3rem;
+	margin-right: 3.4rem;
+	margin-left: 3rem;
+	width: 28.5rem;
+	height: 5rem;
+	color: var(--white-001);
+	font-size: 3.3rem;
+	font-weight: 700;
+	line-height: 3.9rem;
+	letter-spacing: 0.1rem;
+	text-shadow: var(--text-outline);
+}
+
+.add-squaddie-btn span {
+	margin-top: 0.2rem;
+} 
+
+ .add-squaddie-btn::after {
+	top: -3.7rem;
+	width: 27.4rem;
+	height: 3.4rem;
+	/* margin-top: -0.2rem; */
+	filter: blur(1px);
+	border-radius: 0.8rem;
+}
+
+.remove-squaddie-btn {
+
+}
+
+.upgrade-btn {
+	border: 0.2rem solid var(--black-001);
+	box-shadow: none;
+	height: 3.2rem;
+	width: 10rem;
+	border-radius: 0.8rem;
+	margin-top: 0.5rem;
+}
+
+.upgrade-btn-content {
+	margin-top: 0.5rem;
+	margin-left: 0.2rem;
+	text-shadow: var(--text-outline);
+	color: white;
+	font-size: 1.8rem;
+}
+
+.btn-up-arrow {
+	position: relative;
+	right: 2rem;
+	bottom: 0.3rem;
+}
+
+.gold-medal {
+	position: absolute;
+	right: 1.5rem;
+	bottom: 0.1rem;
+}
+
+.gold-medal-outline {
+ 	position: absolute;
+	right: 1.5rem;
+	bottom: 0.1rem;
+	z-index: -1;
+}
+
+.upgrade-price {
+	position: absolute;
+	right: -0.6rem;
+	bottom: 0.2rem;
+	z-index: -1;
+}
+
+.squaddie-blue section {
+	background-color: var(--blue-medium);
+}
+
+.squaddie-green section {
+	background-color: var(--green-002);
+}
+
+.squaddie-red section {
+	background-color: var(--red-002);
+}
+
+.squaddie-yellow section {
+	background-color: var(--yellow-003);
+}
+
+/* .squaddie-unavailable header {
+
+} */
+
+.squaddie-unavailable section {
+	background: linear-gradient(180deg, #ffd7f228 0%, #9b00004b 100%);
+}
+
+.squaddie-unavailable div,
+.squaddie-unavailable button {
+	display : none;
+}
+
+/* The switch */
+
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 6rem;
+	height: 3.4rem;
+	margin-top: 1rem;
+}
+
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: black;
+	color: #ffffff;
+}
+
+.slider:after {
+	content: 'max';
+	position: relative;
+	top: 0.6rem;
+	left: 1.6rem;
+	font-family: "hwt-artz",sans-serif;
+	color: #ffffff;
+	font-size: 1.2rem;
+	line-height: normal;
+}
+
+.slider:before {
+	content: 'X1';
+	padding: 0.3rem;
+	position: absolute;
+	left: 0.2rem;
+	background-color: #3dbe42;
+	font-size: 1.2rem;
+	color: #000;
+	font-family: "hwt-artz",sans-serif;
+	font-size: 1.2rem;
+	font-weight: 900;
+	line-height: normal;
+}
+
+/* input:checked + .slider {
+	background-color: #3dbe42;
+} */
+
+.slider.round {
+	border-radius: 5.5rem;
+	height: 2.5rem;
+	width: 7rem;
+}
+
+.slider.round:before {
+	border-radius: 5.5rem;
+	height: 2.1rem;
+	width: 3.5rem;
+	top: 0.2rem;
+}
+
